@@ -1,8 +1,7 @@
-## Welcome to GitHub Pages
+## GiahuyCons™
 
 You can use the [editor on GitHub](https://github.com/ntgiahuy/cdn/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 [GiahuyCons™](https://www.giahuy.org/) là trang chia sẻ tài liệu xây dựng. Chúng tôi chia sẻ các bản vẽ thiết kế đẹp, kinh nghiệm thi công, kiến thức về xây dựng...
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
 ### Markdown
 
