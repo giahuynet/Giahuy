@@ -1,11 +1,10 @@
 ## GiahuyCons™
 
-You can use the [editor on GitHub](https://github.com/ntgiahuy/cdn/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 [GiahuyCons™](https://www.giahuy.org/) là trang chia sẻ tài liệu xây dựng. Chúng tôi chia sẻ các bản vẽ thiết kế đẹp, kinh nghiệm thi công, kiến thức về xây dựng...
 
 ### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Markdown là một cú pháp nhẹ và dễ sử dụng để tạo kiểu cho bài viết của bạn. Nó bao gồm các quy ước cho
 
 ```markdown
 Syntax highlighted code block
@@ -29,7 +28,7 @@ For more details see [GitHub Flavored Markdown](https://guides.github.com/featur
 
 ### Jekyll Themes
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/ntgiahuy/cdn/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+Trang Pages của bạn sẽ sử dụng bố cục và kiểu từ chủ đề Jekyll mà bạn đã chọn trong [cài đặt kho lưu trữ](https://github.com/ntgiahuy/cdn/settings/pages) của mình. Tên của chủ đề này được lưu trong `_config.yml` tệp cấu hình Jekyll .
 
 ### Support or Contact
 
