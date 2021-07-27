@@ -32,5 +32,5 @@ Trang Pages của bạn sẽ sử dụng bố cục và kiểu từ chủ đề 
 
 ### Hỗ trợ hoặc Liên hệ
 
-Bạn gặp sự cố với Pages? Kiểm tra [tài liệu](https://docs.github.com/categories/github-pages-basics/) của chúng tôi hoặc [liên hệ](https://support.github.com/contact) với bộ phận hỗ trợ và chúng tôi sẽ giúp bạn sắp xếp nó.
+Bạn gặp sự cố với Pages? Kiểm tra [tài liệu](https://blog.giahuy.org/) của chúng tôi hoặc [liên hệ](https://www.giahuy.org/contact) với bộ phận hỗ trợ và chúng tôi sẽ giúp bạn sắp xếp nó.
 
