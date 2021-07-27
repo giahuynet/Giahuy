@@ -30,6 +30,7 @@ For more details see [GitHub Flavored Markdown](https://guides.github.com/featur
 
 Trang Pages của bạn sẽ sử dụng bố cục và kiểu từ chủ đề Jekyll mà bạn đã chọn trong [cài đặt kho lưu trữ](https://github.com/ntgiahuy/cdn/settings/pages) của mình. Tên của chủ đề này được lưu trong `_config.yml` tệp cấu hình Jekyll .
 
-### Support or Contact
+### Hỗ trợ hoặc Liên hệ
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+Bạn gặp sự cố với Pages? Kiểm tra [tài liệu](https://docs.github.com/categories/github-pages-basics/) của chúng tôi hoặc [liên hệ](https://support.github.com/contact) với bộ phận hỗ trợ và chúng tôi sẽ giúp bạn sắp xếp nó.
+
