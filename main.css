@@ -32,24 +32,7 @@ p code {
  * nav
  */
 
-.nav {
-	position: fixed;
-	left: 0;
-	top: 0;
-	/*background: rgb(170, 217, 223);*/
-	background: linear-gradient(to right, rgba(170, 217, 223, 1) , rgba(170, 217, 223, 0.25));
-	width: 130px;
-	z-index: 1000;
-	font-size: 12px;
-	line-height: 1.2;
-	height: 100%;
-	border-right: 1px solid rgba(0, 0, 0, 0.3);
-	display: none;
-	}
-.show_nav .nav {display: block;}
-.nav .nav_inner {padding:10px; overflow-y: scroll; height: 100%; box-sizing: border-box;}
-.nav .section {margin: 0 0 10px}
-.nav a { display:block; color: #000; padding: 2px 0; border-bottom: 1px solid #00000025; text-decoration: none;}
+
 
 .nav div.section p {border-bottom: 1px solid #333; font-weight: bold; margin: 0 0 6px 0;}
 .nav div.section p a {
