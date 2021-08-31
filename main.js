@@ -20,7 +20,7 @@ var reset_copy_buttons = function(){
   $('.copy').text('Sao chép');
 }
 var run_demo = function(){
-  var demo_string = "Lucid Gen";
+  var demo_string = "GIAHUY.NET";
   var str = demo_string.split('');
   for (var i=1;i<=str.length;i++) {
      (function(pos) {
