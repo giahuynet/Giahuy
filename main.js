@@ -152,7 +152,7 @@ var init_buttons = function(){
     });
     $('.tweet', $(this)).click(function(){
       ok_to_run_demo = false;
-      var url = "https://twitter.com/intent/tweet?text="+encodeURIComponent($('.value_inner', $t).text()+" via http://yaytext.com");
+      var url = "https://twitter.com/intent/tweet?text="+encodeURIComponent($('.value_inner', $t).text()+" via https://www.giahuy.net");
       window.open(url, '_blank');
       bump_counter('tweet');
       ga('send', 'event', 'Transform Action', 'tweet', $t.data('transform-slug'));
@@ -250,4 +250,4 @@ $(function(){
   populateClipboardFromLocalstorage();
   $('body').removeClass('loading');
 });
-if (location.host != "lucidgen.com") location.href = "https://lucidgen.com/viet-chu-in-dam-nghieng-facebook/";
+if (location.host != "giahuy.net") location.href = "https://www.giahuy.net/p/cong-cu-viet-chu-in-dam-va-in-nghieng.html";
