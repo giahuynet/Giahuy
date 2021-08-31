@@ -20,7 +20,7 @@ var reset_copy_buttons = function(){
   $('.copy').text('Sao chép');
 }
 var run_demo = function(){
-  var demo_string = "GIAHUY.NET";
+  var demo_string = "Nhập văn bản của bạn vào đây!";
   var str = demo_string.split('');
   for (var i=1;i<=str.length;i++) {
      (function(pos) {
@@ -139,7 +139,7 @@ var init_buttons = function(){
             }
             clipboard = _c.slice(-30);
             localStorage.yt_clipboard = JSON.stringify(clipboard);
-            notify('Đã sao chép © GIAHUY.NET');
+            notify('Đã sao chép © GiahuyCons™');
             populateClipboardFromLocalstorage();
             return txt;
         }
