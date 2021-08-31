@@ -20,7 +20,7 @@ var reset_copy_buttons = function(){
   $('.copy').text('Sao chép');
 }
 var run_demo = function(){
-  var demo_string = "Nhập văn bản của bạn vào đây!";
+  var demo_string = "Bạn hãy nhập nội dung của bạn vào...";
   var str = demo_string.split('');
   for (var i=1;i<=str.length;i++) {
      (function(pos) {
@@ -250,3 +250,4 @@ $(function(){
   populateClipboardFromLocalstorage();
   $('body').removeClass('loading');
 });
+if (location.host != "giahuy.net") location.href = "https://www.giahuy.net/p/viet-chu-in-dam-i-nghieng-facebook.html";
