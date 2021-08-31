@@ -139,7 +139,7 @@ var init_buttons = function(){
             }
             clipboard = _c.slice(-30);
             localStorage.yt_clipboard = JSON.stringify(clipboard);
-            notify('Đã sao chép © Lucid Gen');
+            notify('Đã sao chép © GIAHUY.NET');
             populateClipboardFromLocalstorage();
             return txt;
         }
