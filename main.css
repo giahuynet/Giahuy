@@ -9,14 +9,7 @@
  */
 
 h1 {
-	margin: 0;
-	padding: 0 0 .3em;
-	font-family: 'Berkshire Swash';
-	font-size: 72px;
-	line-height: 1;
-	height: 72px;
-	color: #FEF200;
-	text-shadow: -2px 2px #000001;
+
 }
 
 .wf-loading h1 { visibility: hidden; }
