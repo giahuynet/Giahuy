@@ -488,8 +488,8 @@ h3.faq_title::before {
  * footer
  */
 
-.footer p {font-size: 14px; margin: 0 0 1em;}
-.footer a {color: inherit;}
+#.footer p {font-size: 14px; margin: 0 0 1em;}
+#.footer a {color: inherit;}
 
 .after_copy {display: none; }
 
