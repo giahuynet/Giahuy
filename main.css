@@ -147,33 +147,7 @@
 		display: none;
 }
 
-/*
- * breadcrumb
- */
 
-.main .pre_breadcrumb_section {float: left; width: 1px; height: 0;}
-.main .section.breadcrumb_section {padding: 10px !important; overflow: visible; height: 36px; }
-.docked .main .pre_breadcrumb_section {height: 36px;}
-.docked .main .section.breadcrumb_section {
-	background-color: #60b7c2;
-	border-bottom: 1px solid #FFFFFF55;
-	height: auto;
-	position: fixed;
-	top: 0;
-	z-index: 2000;
-	box-sizing: border-box;
-	padding: 10px !important;
-	}
-.docked .main .section.breadcrumb_section .section_inner {max-width: none;}
-
-.breadcrumb {float: left; font-size:14px; line-height: 1; margin: 0; padding: 0}
-.breadcrumb li {
-	list-style: none;
-    display: inline;
-    margin: 0;
-    padding: 0;
-}
-.breadcrumb a {color: inherit;}
 
 /*
  * main content area
