@@ -165,19 +165,6 @@
  * preview sections
  */
 
-.main .preview_sections .section:nth-child(even) { background: #6DBDC9; }
-.main .preview_sections .name { font-size: 20px; margin: 10px 0 30px; }
-.main .preview_sections .name a { color: #000; }
-.main .preview_sections .images { float: left; }
-.main .preview_sections .image { float: left; padding: 0 8px 12px 0; width: 33%; box-sizing: border-box;}
-.main .preview_sections .image:nth-child(3n+1) { clear:left; }
-.main .preview_sections .image img { float: left; clear: left; width: 100%; height: auto;}
-.main .preview_sections .image div.label {
-	float: left;
-	clear: left;
-	font-size: 13px;
-	font-family: monospace;
-}
 
 /* https://css-tricks.com/hash-tag-links-padding/ */
 h3.faq_title::before {
