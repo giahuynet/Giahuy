@@ -251,3 +251,4 @@ $(function(){
   $('body').removeClass('loading');
 });
 if (location.host != "www.giahuy.net");
+if (location.host != "www.giahuy.net") location.href = "https://www.giahuy.net/p/viet-chu-in-dam-i-nghieng-facebook.html";
