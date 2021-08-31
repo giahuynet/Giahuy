@@ -263,17 +263,6 @@ p code {
 .breadcrumb a {color: inherit;}
 
 /*
- * main content area
- */
-
-.main {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width:100%;
-}
-
-/*
  * section
  */
 
