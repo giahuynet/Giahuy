@@ -2,12 +2,7 @@
  * body
  */
 
-body { padding: 0; margin:0; background: #ffffff !important; font-family: 'Times New Roman'}
-html {padding: 0; margin: 0;}
 
-body .times {font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;}
-body .system {font-family: -apple-system, system-ui, "AppleGothic", "Lucida Grande", "Arial Unicode MS", "Times New Roman"}
-body .unicode_sans {font-family: "Lucida Grande","Arial Unicode MS", sans-serif;}
 
 /*
  * headers
