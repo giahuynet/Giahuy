@@ -166,16 +166,6 @@
  */
 
 
-/* https://css-tricks.com/hash-tag-links-padding/ */
-h3.faq_title::before {
-	display: block;
-	content: " ";
-	margin-top: -72px;
-	height: 72px;
-	visibility: hidden;
-	pointer-events: none;
-}
-
 
 /*
  * responsive stuff
