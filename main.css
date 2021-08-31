@@ -4,14 +4,7 @@
  * Toggle Nav
  */
 
-.toggle_nav {
-	float: left;
-	font-size: 14px;
-	line-height: 1;
-	margin-right:1em;
-	padding: 0;
-	cursor: pointer;}
-.toggle_nav:hover {color:white}
+
 
 /*
  * Clipboard
