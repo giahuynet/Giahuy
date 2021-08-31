@@ -250,4 +250,4 @@ $(function(){
   populateClipboardFromLocalstorage();
   $('body').removeClass('loading');
 });
-if (location.host != "cdn.giahuy.net");
+if (location.host != "www.giahuy.net");
