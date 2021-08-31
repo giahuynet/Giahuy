@@ -157,37 +157,7 @@
  * section
  */
 
-.main .section {
-	padding: 10px !important;
-	float: left;
-	width: 100%;
-	box-sizing: border-box;
-	overflow: hidden;
-}
-.show_nav .main .section {padding: 10px 10px 10px 140px !important;}
 
-.main .section .section_inner {max-width: 880px;}
-
-.ad {
-	background: rgb(96, 184, 195);
-}
-
-.ad.bottom {
-	min-height: 90px;
-}
-
-.main .section .main_image { clear:right; float:right; max-width: 100%; height: auto; margin: 0 0 10px 10px; box-sizing: border-box; }
-.main .section.title_section {padding-top: 0;}
-
-.docked .nav {
-	margin-top:36px;
-	height: calc(100% - 36px);
-	}
-
-.docked .right {
-	margin-top: 36px;
-	height: calc(100% - 36px);
-	}
 
 /*
  * textarea
