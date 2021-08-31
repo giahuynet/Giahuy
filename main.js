@@ -250,4 +250,3 @@ $(function(){
   populateClipboardFromLocalstorage();
   $('body').removeClass('loading');
 });
-if location.href = "https://www.giahuy.net/p/viet-chu-in-dam-i-nghieng-facebook.html";
