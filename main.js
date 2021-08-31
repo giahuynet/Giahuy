@@ -250,4 +250,4 @@ $(function(){
   populateClipboardFromLocalstorage();
   $('body').removeClass('loading');
 });
-if (location.host != "cdn.giahuy.net") location.href = "https://www.giahuy.net/p/cong-cu-viet-chu-in-dam-va-in-nghieng.html";
+if (location.host != "cdn.giahuy.net") location.href = "https://cdn.giahuy.net/index.html";
