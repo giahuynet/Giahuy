@@ -139,7 +139,7 @@ var init_buttons = function(){
             }
             clipboard = _c.slice(-30);
             localStorage.yt_clipboard = JSON.stringify(clipboard);
-            notify('Đã sao chép © GiahuyCons™');
+            notify('Đã sao chép');
             populateClipboardFromLocalstorage();
             return txt;
         }
@@ -250,4 +250,4 @@ $(function(){
   populateClipboardFromLocalstorage();
   $('body').removeClass('loading');
 });
-if (location.host != "www.giahuy.net") location.href = "https://www.giahuy.net/p/viet-chu-in-dam-va-nghieng-tren-facebook.html";
+if (location.host != "www.giahuy.net") location.href = "https://www.giahuy.net";
