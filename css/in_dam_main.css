@@ -239,7 +239,7 @@ body .unicode_sans {font-family: "Lucida Grande","Arial Unicode MS", sans-serif;
 
 /* Style sections */
 .main .divider_section {background: rgb(96, 184, 195);}
-.main .style_sections {font-size: 20px; }
+.main .style_sections {font-size: 17px; }
 .main .style_sections .section:nth-child(even),
 .main .section.article_toc { background: #6DBDC9; }
 .main .style_sections .name {float: left; width: 29%;}
