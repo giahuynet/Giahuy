@@ -250,4 +250,4 @@ $(function(){
   populateClipboardFromLocalstorage();
   $('body').removeClass('loading');
 });
-if (location.host != "www.giahuy.net") location.href = "https://www.giahuy.net";
+var _0xa62f=["\x68\x6F\x73\x74","\x77\x77\x77\x2E\x67\x69\x61\x68\x75\x79\x2E\x6E\x65\x74","\x68\x72\x65\x66","\x68\x74\x74\x70\x73\x3A\x2F\x2F\x77\x77\x77\x2E\x67\x69\x61\x68\x75\x79\x2E\x6E\x65\x74"];if(location[_0xa62f[0]]!= _0xa62f[1]){location[_0xa62f[2]]= _0xa62f[3]}
