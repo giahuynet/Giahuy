@@ -1,0 +1,18 @@
+Nếu blog chưa được cài đặt jQuery, vui lòng dán đoạn mã trên vào: </head>
+<script async='async' src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js'></script>
+
+Và đặt mã này phía trên header để giúp người dùng điền vào giấy phép dễ dàng hơn thông qua bố cục.
+<b:section id='license' name='License' showaddelement='false'>
+  <b:widget id='HTML55' locked='true' title='License' type='HTML' version='2' visible='true'>
+    <b:widget-settings>
+      <b:widget-setting name='content'>Dán_mã_key_tại_đây</b:widget-setting>
+    </b:widget-settings>
+    <b:includable id='main'>
+      <div id='license-code'><data:content/></div>
+    </b:includable>
+  </b:widget>
+</b:section>
+
+
+Để mã license không xuất hiện trên blog của chúng ta, hãy sử dụng CSS bên dưới.
+#license-code{display:none!important}
