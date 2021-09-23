@@ -1,14 +1,4 @@
 /* body */
-body{font-family:'Roboto',sans-serif;color:#5c6771}
-  .main .style_sections .buttons button{font-family:'Roboto',sans-serif;background:#343352;color:#fff;border-radius:100px}
-  .textarea textarea{font-size:15px;border-radius:3px;color:#5c6771;border:1px solid}
-  .main .style_sections .name,.textarea .name{font-size:15px;font-weight:700}p#tool-title,span
-  .value_inner.times{font-size:15px}p#tool-title{width:100%;text-align:center;background-color:#343352;padding:10px 0;color:#fff}
-  .show_nav .main .section{padding:10px!important}
-  .main .section.article_toc,.main .style_sections .section:nth-child(even){background:#cbe1f7}
-  .main .style_sections .buttons button:hover{background:#2c59d3}
-
-/* body 2 */
 body { padding: 0; margin:0; font-family: 'Times New Roman'}
 html {padding: 0; margin: 0;}
 body .times {font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;}
