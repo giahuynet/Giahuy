@@ -1,6 +1,6 @@
 ## GiahuyCons™
 
-[GiahuyCons™](https://www.giahuy.org/) là trang chia sẻ tài liệu xây dựng. Chúng tôi chia sẻ các bản vẽ thiết kế đẹp, kinh nghiệm thi công, kiến thức về xây dựng...
+[GiahuyCons™](https://www.giahuy.net/) là trang chia sẻ tài liệu xây dựng. Chúng tôi chia sẻ các bản vẽ thiết kế đẹp, kinh nghiệm thi công, kiến thức về xây dựng...
 
 ### Markdown
 
@@ -23,14 +23,7 @@ Syntax highlighted code block
 
 [Link](url) and ![Image](src)
 ```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Trang Pages của bạn sẽ sử dụng bố cục và kiểu từ chủ đề Jekyll mà bạn đã chọn trong [cài đặt kho lưu trữ](https://github.com/ntgiahuy/cdn/settings/pages) của mình. Tên của chủ đề này được lưu trong `_config.yml` tệp cấu hình Jekyll .
-
 ### Hỗ trợ hoặc Liên hệ
 
-Bạn gặp sự cố với Pages? Kiểm tra [tài liệu](https://blog.giahuy.org/) của chúng tôi hoặc [liên hệ](https://www.giahuy.org/contact) với bộ phận hỗ trợ và chúng tôi sẽ giúp bạn sắp xếp nó.
+Bạn gặp sự cố với Pages? Kiểm tra [tài liệu](https://demo.giahuy.net/) của chúng tôi hoặc [liên hệ](https://www.giahuy.net/contact) với bộ phận hỗ trợ và chúng tôi sẽ giúp bạn sắp xếp nó.
 
