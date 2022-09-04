@@ -1,0 +1,80 @@
+<h3 style='text-align: center;'><span style='color: #2b00fe;'>Get link tải trực tiếp Google Drive</span></h3>
+<div class='generator-gdrive'>
+  <div class='form-gdrive input'>
+    <input name='gdrive' id='driveID' placeholder='https://drive.google.com/file/d/1kUXF...' type='text'/>
+  </div>
+  <br>
+  <div class='tombol-get'>
+    <button id='get-button'>Create Direct Link</button>
+  </div>
+  <div class='form-gdrive output'>
+    <input name='gdrive' id='output' placeholder='https://drive.google.com/file/d/0Bz4YdwRI3rnCMFRoTmtSS0M1VHM/view?usp=sharing' type='text' readonly='readonly'/>
+  </div>
+  <br>
+  <div class='tombol-copy-reset'>
+    <div id='text-keterangan'></div>
+    <button id='copy'>Copy Link</button>
+    <button id='download'>Download</button>
+    <button id='reset'>Reset</button>
+  </div>
+</div>
+
+<style>.generator-gdrive{position:relative;display:block;margin:auto;padding:20px 0;max-width:800px;text-align:center;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";line-height:1.3}
+.form-gdrive{position:relative;display:block}
+.form-gdrive.output,.tombol-copy-reset{display:none}
+.form-gdrive label{position:relative;display:block;margin:20px 0;font-size:16px;font-weight:600;color:#444}
+.form-gdrive span{position:relative;display:block;margin-bottom:10px;font-size:12px;color:#444}
+.form-gdrive input{position:relative;display:block;margin:auto;padding:10px 15px;width:calc(100% - 30px);background:#ebeff3;color:#444;border:none;outline:none;border-radius:5px}
+.form-gdrive input:focus,.form-gdrive input:hover{background:#fff;border:1px solid #ebeff3}
+.form-gdrive:after{position:absolute;content:"";left:0;bottom:0;background:#f89000;color:#fff;padding:10px 12px 7px 15px;border-radius:5px 0 0 5px;font-size:15px;line-height:2;z-index:2}
+.form-gdrive.input input{width:100%;padding:10px 15px 10px 70px}
+.form-gdrive.output input{width:100%;padding:10px 15px 10px 70px}
+.form-gdrive.input:after{content:"Links:"}
+.form-gdrive.output:after{content:"Links:"}
+button#get-button{color:#fff;background-color:#f89000;display:inline-block;text-align:center;cursor:pointer;outline:none;border:none;border-radius:6px;font-size:15px;font-weight:bold;padding:8px 15px;margin:0 auto}
+button#copy,button#download,button#reset{color:#fff;background-color:#f89000;display:inline-block;text-align:center;cursor:pointer;outline:none;border:none;border-radius:6px;font-size:14px;font-weight:bold;padding:8px 15px;margin:0 auto}</style>
+
+<script>
+//<![CDATA[
+function getButton(){
+    var input = document.getElementById("driveID").value,
+        drive = input.indexOf("google.com");
+    if (-1 != drive) {
+        var textd = input.indexOf("d/"),
+            textEdit = input.indexOf("/edit"),
+            driveID = input.slice(textd + 2, textEdit),
+            output = "https://docs.google.com/$type/d/" + driveID + "/export?format=pdf";
+        -1 !== input.indexOf("document")
+            ? (output = output.replace("$type", "document").split("pdf").join("docx"))
+            : -1 !== input.indexOf("spreadsheet")
+            ? (output = output.replace("$type", "spreadsheets").split("pdf").join("xlsx"))
+            : -1 !== input.indexOf("presentation")
+            ? (output = "https://drive.google.com/uc?export=download&id=" + (driveID = input.slice(textd + 2, textEdit)))
+            : ((textEdit = input.indexOf("/view")), (output = "https://drive.google.com/uc?export=download&id=" + (driveID = input.slice(textd + 2, textEdit))));
+      document.getElementById("output").value = output;
+      document.querySelector(".input").style.display = "none";
+      document.querySelector(".output").style.display = "block";
+      document.querySelector(".tombol-copy-reset").style.display = "block";
+      document.getElementById("get-button").style.display = "none";
+    } else {
+      document.getElementById("driveID").value = "Url không khớp với định dạng";
+    }
+  }
+  function copy(){
+    document.getElementById("output").select();
+    document.execCommand('copy');
+    document.getElementById("text-keterangan").innerHTML = "Đã sao chép liên kết thành công";
+    document.getElementById("text-keterangan").style.margin = "10px 0";
+  }
+  function download(){
+    var linkUnduh = document.getElementById("output").value;
+    window.open(linkUnduh,'_blank');
+  }
+  function reset(){
+    window.location.href = window.location.href;
+  }
+  window.onload = function() {
+    document.getElementById("driveID").focus(), document.getElementById("get-button").onclick = getButton, document.getElementById("copy").onclick = copy, document.getElementById("download").onclick = download, document.getElementById("reset").onclick = reset;
+  };
+//]]>
+</script>
