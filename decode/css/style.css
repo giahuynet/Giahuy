@@ -107,7 +107,7 @@ pre{white-space:pre-wrap;word-wrap:break-word;word-break:break-all;padding:.5em;
 #preview,#download,.tab-content{display:none}
 #preview.show,#download.show,.tab-content.show{display:block}
 .tab-content{}
-.tab{cursor:pointer;font-size:30px;float:left;border-bottom:3px solid transparent;padding-bottom:.1em;margin-bottom:.5em;margin-right:1.5em}
+.tab{cursor:pointer;font-size:20px;float:left;border-bottom:3px solid transparent;padding-bottom:.1em;margin-bottom:.5em;margin-right:1.5em}
 .tab:last-child{margin-right:0}
 .tab.active,.tab:hover,.tab:focus{color:#013fcb;border-bottom:3px solid #013fcb}
 .inputfile{width:.1px;height:.1px;opacity:0;overflow:hidden;position:absolute;z-index:-1}
