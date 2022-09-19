@@ -1,5 +1,38 @@
-<html>
-<head>
-<meta http-equiv="refresh" content="0;url=https://www.giahuy.net">
-</head>
-</html>
+<link rel='stylesheet' href='https://cdn.giahuy.net/decode/css/argon.min.css' as='style' onload='this.onload=null;this.rel='stylesheet''>
+<link type='text/css' href='https://cdn.giahuy.net/decode/css/style.css' rel='stylesheet'>
+
+<div class='row'>
+  <div class='col'>
+    <div class='card shadow-lg'>
+      <div class='card-body'>
+        <section id='main_content'>
+          <div class='tabs'>
+            <div class='tab active' data-target='String'>String</div>
+            <div class='tab' data-target='Local'>Local File</div>
+            <div class='tab' data-target='Remote'>Remote File</div>
+          </div>
+          <div class='cf'></div>
+          <div class='tabs-contents'>
+            <div class='tab-content show' id='contentString'>
+              <textarea id='input' class='form-control input-code bg-dark' rows='7' placeholder='Paste code here...'></textarea>
+            </div>
+            <div class='tab-content' id='contentLocal'>
+              <div class='box'>
+                <div class='input-group mb-3'>
+                  <div class='input-group-prepend'>
+                    <span class='input-group-text' id='inputGroupFileAddon01'>Upload</span>
+                  </div>
+                  <div class='custom-file'>
+                    <input type='file' name='file' id='file' class='custom-file-input' aria-describedby='inputGroupFileAddon01'>
+                    <label id='fileName' for='file' class='custom-file-label'></label>
+                  </div>
+                </div>
+              </div>
+              <pre id='renderLocal' class='render read-only'></pre>
+            </div>
+            <div class='tab-content' id='contentRemote'>
+              <form id='formRemove'>
+                <div class='input-group mb-3'>
+                  <input type='url' id='urlRemove' class='form-control' placeholder='Nhập URL' aria-label='Nhập URL' aria-describedby='url' required=''>
+                  <div class='input-group-append'>
+                    <button class='btn btn-outline-primary' type='submit' id='submitRemove'>Submit</button>
