@@ -3,8 +3,8 @@
 /**
  * @name  {{Gia Huy}}
  * @description  {{Chia sẻ kiến thức}}
- * @author  {{ site.author }} <{{huynguyentronggia@gmail.com}}> ({{ site.url }})
- * @version  {{ site.version }}
+ * @author  {{Gia Huy}} <{{huynguyentronggia@gmail.com}}> ({{www.giahuy.net}})
+ * @version  {{2.6}}
  * @copyright  {{2022}} 2017
  * @license  {{Gia Huy}}
  */
