@@ -1,7 +1,7 @@
 /**
- * @name  de4js
+ * @name  Gia Huy
  * @description  JavaScript Deobfuscator and Unpacker
- * @author  Zzbaivong <Zzbaivong@gmail.com> (https://lelinhtinh.github.io)
+ * @author  Giahuy <ntgiahuy3@gmail.com> (https://www.giahuy.net)
  * @version  1.12.0
  * @copyright  Zzbaivong 2017
  * @license  MIT
@@ -11,8 +11,8 @@
 /* eslint-disable no-console */
 
 self.addEventListener('message', (e) => {
-  self.importScripts('/de4js/third_party/mathjs/math.min.js');
-  self.importScripts('/de4js/lib/utils.js');
+  self.importScripts('/decode/js/math.min.js');
+  self.importScripts('/decode/lib/utils.js');
 
   let source = e.data.source;
   const packer = e.data.packer;
@@ -20,63 +20,63 @@ self.addEventListener('message', (e) => {
 
   const methods = {
     evalencode: () => {
-      self.importScripts('/de4js/lib/evaldecode.js');
+      self.importScripts('/decode/lib/evaldecode.js');
       return EvalDecode(source);
     },
     _numberencode: () => {
-      self.importScripts('/de4js/lib/numberdecode.js');
+      self.importScripts('/decode/lib/numberdecode.js');
       return _NumberDecode(source);
     },
     arrayencode: () => {
-      self.importScripts('/de4js/lib/arraydecode.js');
+      self.importScripts('/decode/lib/arraydecode.js');
       return ArrayDecode(source, options);
     },
     jsfuck: () => {
-      self.importScripts('/de4js/lib/jsfuckdecode.js');
+      self.importScripts('/decode/lib/jsfuckdecode.js');
       return JSFuckDecode(source);
     },
     obfuscatorio: () => {
-      self.importScripts('/de4js/lib/obfuscatorio.js');
+      self.importScripts('/decode/lib/obfuscatorio.js');
       return ObfuscatorIO(source, options);
     },
     cleansource: () => {
-      self.importScripts('/de4js/lib/cleansource.js');
+      self.importScripts('/decode/lib/cleansource.js');
       return CleanSource(source, options);
     },
     aaencode: () => {
-      self.importScripts('/de4js/third_party/cat-in-136/aadecode.js');
+      self.importScripts('/decode/js/aadecode.js');
       return AADecode.decode(source);
     },
     jjencode: () => {
-      self.importScripts('/de4js/third_party/decoder-jjencode/jjdecode.js');
+      self.importScripts('/decode/js/jjdecode.js');
       return JJdecode.decode(source);
     },
     urlencode: () => {
-      self.importScripts('/de4js/third_party/js-beautify/unpackers/urlencode_unpacker.js');
+      self.importScripts('/decode/js/urlencode_unpacker.js');
       if (Urlencoded.detect(source)) return Urlencoded.unpack(source);
       throw 'Not matched';
     },
     p_a_c_k_e_r: () => {
-      self.importScripts('/de4js/third_party/js-beautify/unpackers/p_a_c_k_e_r_unpacker.js');
+      self.importScripts('/decode/js/p_a_c_k_e_r_unpacker.js');
       if (P_A_C_K_E_R.detect(source)) return P_A_C_K_E_R.unpack(source);
       throw 'Not matched';
     },
     javascriptobfuscator: () => {
-      self.importScripts('/de4js/third_party/js-beautify/unpackers/javascriptobfuscator_unpacker.js');
+      self.importScripts('/decode/js/javascriptobfuscator_unpacker.js');
       if (JavascriptObfuscator.detect(source)) return JavascriptObfuscator.unpack(source);
       throw 'Not matched';
     },
     myobfuscate: () => {
-      self.importScripts('/de4js/third_party/js-beautify/unpackers/myobfuscate_unpacker.js');
+      self.importScripts('/decode/js/myobfuscate_unpacker.js');
       if (MyObfuscate.detect(source)) return MyObfuscate.unpack(source);
       throw 'Not matched';
     },
     wiseeval: () => {
-      self.importScripts('/de4js/third_party/NotSoWise/unpacker.js');
+      self.importScripts('/decode/js/unpacker.js');
       return Wise_EvalDecode(source);
     },
     wisefunction: () => {
-      self.importScripts('/de4js/third_party/NotSoWise/unpacker.js');
+      self.importScripts('/decode/js/unpacker.js');
       return Wise_FunctionalDecode(source);
     },
   };
