@@ -23,7 +23,7 @@ self.addEventListener('message', (e) => {
     self._window = self.window;
     self.window = {};
 
-    self.importScripts('/de4js/third_party/js-beautify/beautify.min.js');
+    self.importScripts('/decode/js/beautify.min.js');
 
     source = self.window.js_beautify(source, {
       unescape_strings: true,
@@ -41,7 +41,7 @@ self.addEventListener('message', (e) => {
   });
 
   try {
-    self.importScripts('/de4js/third_party/highlight-js/highlight.min.js');
+    self.importScripts('/decode/js/highlight.min.js');
 
     source = self.hljs.highlight('javascript', source).value;
 
