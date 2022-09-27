@@ -84,7 +84,7 @@
     options,
     none = document.getElementById('none'),
     readable = document.getElementById('readable'),
-    form = document.de4js,
+    form = document.decode,
     packer = form.encode.value,
     temp = '',
     disableAll = function (check) {
@@ -111,7 +111,7 @@
       autoBtn.disabled = true;
       disableAll(true);
 
-      options = Array.from(document.querySelectorAll('.de4js-option')).reduce((obj, e) => {
+      options = Array.from(document.querySelectorAll('.decode-option')).reduce((obj, e) => {
         obj[e.name] = e.checked;
         return obj;
       }, {});
@@ -141,7 +141,7 @@
       if (externalUrl) URL.revokeObjectURL(externalUrl);
 
       source =
-        '<html><head><meta charset="utf-8"><link rel="shortcut icon" type="image/png" href="https://www.giahuy.net/decode/favicon.png"><title>de4js | Preview</title><style>' +
+        '<html><head><meta charset="utf-8"><link rel="shortcut icon" type="image/png" href="https://www.giahuy.net/decode/favicon.png"><title>decode | Preview</title><style>' +
         externalStyle +
         '</style></head><body><pre class="hljs">' +
         source +
@@ -238,7 +238,7 @@
     },
     decode = debounce(function () {
       if (temp === '') temp = input.value.trim();
-      temp = temp.replace(/\/\*(?!\s*@de4js)[\s\S]*?\*\/|^[\s\t]*\/\/.*/gm, '');
+      temp = temp.replace(/\/\*(?!\s*@decode)[\s\S]*?\*\/|^[\s\t]*\/\/.*/gm, '');
       if (temp === '') return;
 
       packer = isAuto ? detect(temp) : form.encode.value;
