@@ -85,7 +85,7 @@
 .notification{position:fixed;bottom:0;left:0;right:0;background:#333;color:white;margin:4px;border-radius:4px;z-index:1000;text-align:center;font-size:18px;line-height:2;box-sizing:border-box;height:36px;transition-property:all;transition-duration:.5s;transition-timing-function:cubic-bezier(0,1,0.5,1);opacity:1}
 .notification.closed{bottom:-36px;height:0}
 .notification.clear{bottom:18px;opacity:0}
-.main .style_sections .buttons button{font-family:'Roboto',sans-serif;background:#f89000;color:#fff;border-radius:100px}
+.main .style_sections .buttons button{font-family:'Roboto',sans-serif;background:#9c27b0;color:#fff;border-radius:100px}
 .textarea textarea{font-size:15px;border-radius:3px;color:#5c6771;border:1px solid}
 .main .style_sections .name,.textarea .name{font-size:15px;font-weight:700}
 p#tool-title,span   .value_inner.times{font-size:15px}
