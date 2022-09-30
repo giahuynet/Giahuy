@@ -95,7 +95,7 @@
       var source = output.value.trim();
       if (source === '') return;
       if (!workerFormat) {
-        workerFormat = createWorker('https://cdn.giahuy.net/decrypt/format.js');
+        workerFormat = createWorker('/decrypt/format.js);
         workerFormat.addEventListener('message', function(e) {
           view.innerHTML = e.data;
           externalPreview(e.data);
@@ -142,7 +142,7 @@
         return;
       }
       if (!workerDecode) {
-        workerDecode = createWorker('https://cdn.giahuy.net/decrypt/decode.js');
+        workerDecode = createWorker('/decrypt/decode.js');
         workerDecode.addEventListener('message', function(e) {
           output.value = e.data;
           if (auto.checked && input.value !== output.value) {
