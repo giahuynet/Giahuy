@@ -95,7 +95,7 @@
       var source = output.value.trim();
       if (source === '') return;
       if (!workerFormat) {
-        workerFormat = createWorker('https://cdn.giahuy.net/decrypt/format.js);
+        workerFormat = createWorker('https://cdn.giahuy.net/decrypt/format.js');
         workerFormat.addEventListener('message', function(e) {
           view.innerHTML = e.data;
           externalPreview(e.data);
