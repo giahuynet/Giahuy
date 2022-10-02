@@ -81,7 +81,7 @@
     externalUrl,
     externalPreview = function(source) {
       if (externalUrl) URL.revokeObjectURL(externalUrl);
-      source = '<html><head><meta charset="utf-8"><link rel="shortcut icon" type="image/png" href="/de4js/favicon.png"><title>de4js | Preview</title><style>' + externalStyle + '</style></head><body><pre class="hljs">' + source + '</pre></body></html>';
+      source = '<html><head><meta charset="utf-8"><link rel="shortcut icon" type="image/png" href="https://cdn.giahuy.net/decrypt/favicon.png"><title>de4js | Preview</title><style>' + externalStyle + '</style></head><body><pre class="hljs">' + source + '</pre></body></html>';
       externalUrl = new Blob([source], {
         type: 'text/html'
       });
@@ -95,7 +95,7 @@
       var source = output.value.trim();
       if (source === '') return;
       if (!workerFormat) {
-        workerFormat = createWorker('/decrypt/format.js);
+        workerFormat = createWorker('https://cdn.giahuy.net/decrypt/format.js);
         workerFormat.addEventListener('message', function(e) {
           view.innerHTML = e.data;
           externalPreview(e.data);
@@ -142,7 +142,7 @@
         return;
       }
       if (!workerDecode) {
-        workerDecode = createWorker('/decrypt/decode.js');
+        workerDecode = createWorker('https://cdn.giahuy.net/decrypt/decode.js');
         workerDecode.addEventListener('message', function(e) {
           output.value = e.data;
           if (auto.checked && input.value !== output.value) {
