@@ -1,5 +1,9 @@
 /*<![CDATA[*/
-  /* Countdown Download Script by Fineshop Design */
+  /**
+ * Description: Count Download
+ * Author: GiaHuy Design
+ * Author URL: www.giahuy.net
+*/
   function download(link, time, newtab, id){
     var dldCo = document.querySelector(id),
         dldMe = document.querySelector(id + ' .dldMe'),
