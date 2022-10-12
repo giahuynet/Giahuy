@@ -1,4 +1,9 @@
 //<![CDATA[
+/**
+ * Description: Get Link Drive
+ * Author: GiaHuy Design
+ * Author URL: www.giahuy.net
+*/
 function getButton(){
     var input = document.getElementById("driveID").value,
         drive = input.indexOf("google.com");
