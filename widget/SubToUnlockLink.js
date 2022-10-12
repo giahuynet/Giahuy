@@ -1,4 +1,9 @@
 //<![CDATA[
+/**
+ * Description: Subscribe To Unlock Download Link
+ * Author: GiaHuy Design
+ * Author URL: www.giahuy.net
+*/
 /* Sosial media redirect */
 var ghStuYts = 'UCaeIhtzD9HFYb-AN_Mbt-ew'; // Youtube channel id
 var ghStuYtv = '5TCp_U_EqFM'; // Youtube video id
