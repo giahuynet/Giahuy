@@ -1,4 +1,9 @@
 /*<![CDATA[*/
+/**
+ * Description: Code Box
+ * Author: GiaHuy Design
+ * Author URL: www.giahuy.net
+*/
 0<document.querySelectorAll('div.pre.nb').length&&(() => {
 let preD = document.querySelectorAll('div.pre.nb');
 function saveDoc(x, d, n) {
