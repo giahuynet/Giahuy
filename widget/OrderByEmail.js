@@ -1,6 +1,9 @@
 //<![CDATA[
-// Email Form by giahuy code
-// Open Close Button
+/**
+ * Description: Order Sent By Email
+ * Author: GiaHuy Design
+ * Author URL: www.giahuy.net
+*/
 $(".form-close").click(function(){
   $(".giahuy-form-mail").fadeOut("fast")}
 );$(".show-form").click(function(){
