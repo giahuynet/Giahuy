@@ -1,6 +1,9 @@
 //<![CDATA[
-// Share button to unlock link
-
+/**
+ * Description: Share button to unlock the link
+ * Author: GiaHuy Design
+ * Author URL: www.giahuy.net
+*/
 var ghshtuset =[5000,'Loading...','Đã hoàn thành']; // 5 giây tải sau đó hiển thị văn bản (kết thúc)
 var ghshdws = 'Tải xuống đã mở khóa'; // Mở văn bản nút tải xuống
 
