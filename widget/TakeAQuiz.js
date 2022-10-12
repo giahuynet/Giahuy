@@ -1,4 +1,9 @@
 //<![CDATA[
+/**
+ * Description: Take A Quiz
+ * Author: GiaHuy Design
+ * Author URL: www.giahuy.net
+*/
   var htmlDataWaktu = document.getElementById("waktu-soal");
   var htmlJumlahSoal = document.querySelector(".bank-soal-wrap");
   if (htmlDataWaktu != null){
