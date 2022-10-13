@@ -1,4 +1,8 @@
-//safelink blogger di bagikan gratis oleh https://blog.choipanwendy.com versi 1.1
+/**
+ * Description: Safe Link
+ * Author: GiaHuy Design
+ * Author URL: www.giahuy.net
+*/
 $('.ghSafeShow').click(function () {
   $('.safeWrap').fadeIn();
 }),
