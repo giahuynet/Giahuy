@@ -1,7 +1,7 @@
 /*<![CDATA[*/
   (() => {
   const config = {
-    databaseUrl: 'https://giahuy-8f41f-default-rtdb.firebaseio.com',
+    databaseUrl: 'https://giahuy-f6d52-default-rtdb.firebaseio.com',
     abbreviation: true,
     lazyload: true,
   };
